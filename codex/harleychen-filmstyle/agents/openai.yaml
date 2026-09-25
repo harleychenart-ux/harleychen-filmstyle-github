@@ -1,0 +1,6 @@
+interface:
+  display_name: "HarleyChen Filmstyle"
+  short_description: "用使用者自己的方舟账号生成徕卡 M6 与 VISION3 500T 胶片质感"
+  default_prompt: "使用 $harleychen-filmstyle，帮我生成陈下心风格：请分析我上传的照片，并在保留主体与构图的前提下生成 Leica M6 + VISION3 500T 电影胶片观感的版本。豆包 Seedream 路线只能使用并开通我自己的火山方舟账号与专属凭据，禁止使用共享账号。"
+policy:
+  allow_implicit_invocation: true
