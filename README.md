@@ -21,19 +21,6 @@ doubao/harleychen-filmstyle/ # 豆包适配说明：不含密钥，不依赖 mac
 - Codex 版只读取 `HARLEYCHEN_ARK_API_KEY` 或 macOS Keychain 的 `harleychen-filmstyle-volcengine-ark-api-key`；不会读取通用 `ARK_API_KEY`。
 
 仓库故意不含许可证。公开发布前，请自行选择并加入适合的许可证；在此之前默认保留全部权利。
-
-## 发布到 GitHub
-
-1. 在 GitHub 创建一个**空仓库**，建议先设为 Private，例如 `harleychen-filmstyle`。
-2. 在此目录执行：
-
-```bash
-git init
-git add README.md .gitignore codex doubao
-git commit -m "Initial HarleyChen Filmstyle skill package"
-git branch -M main
-git remote add origin https://github.com/<你的用户名>/harleychen-filmstyle.git
-git push -u origin main
 ```
 
 提交前运行 `git status` 与 `git diff --cached`，确认其中没有密钥、照片、输出文件或本机路径。
